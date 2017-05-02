@@ -6,14 +6,16 @@ import serial
 import pygame
 from pygame.locals import *
 import socket
-pygame.display.set_mode((100, 100))
 
 class CollectTrainingData(object):
     def __init__(self):
-        print "test"
+        print "test1"
         self.server_socket = socket.socket()
+        print "test1"
         self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
+        print "test1"
         self.server_socket.listen(0)
+        print "test1"
 
         # accept a single connection
         self.connection = self.server_socket.accept()[0].makefile('rb')
@@ -27,7 +29,9 @@ class CollectTrainingData(object):
             self.k[i, i] = 1
         self.temp_label = np.zeros((1, 4), 'float')
 
+        print "test2"
         pygame.init()
+        #pygame.display.set_mode((100, 100))
         self.collect_image()
 
     def collect_image(self):

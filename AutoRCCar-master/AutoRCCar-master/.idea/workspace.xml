@@ -15,9 +15,11 @@
       <file leaf-file-name="rc_control_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#2#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,9 +27,11 @@
       <file leaf-file-name="collect_training_dataV2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/computer/collect_training_dataV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-612">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,11 +39,9 @@
       <file leaf-file-name="collect_training_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/computer/collect_training_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="e#26#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,7 +49,7 @@
       <file leaf-file-name="stream_server_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/stream_server_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="204">
               <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
@@ -106,15 +108,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>close</find>
+      <find>displa</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/rc_control_test.py" />
-        <option value="$PROJECT_DIR$/computer/collect_training_data.py" />
         <option value="$PROJECT_DIR$/test/sockets stream test.py" />
         <option value="$PROJECT_DIR$/test/stream_server_test.py" />
+        <option value="$PROJECT_DIR$/computer/collect_training_data.py" />
         <option value="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
       </list>
     </option>
@@ -349,8 +352,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.collect_training_dataV2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stream_server_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.collect_training_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.collect_training_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stream_server_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.rc_control_test" />
       </list>
     </recent_temporary>
@@ -404,7 +407,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,7 +433,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -494,24 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/computer/collect_training_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#26#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -538,17 +527,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/stream_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="204">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/computer/collect_training_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/computer/collect_training_dataV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-612">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
