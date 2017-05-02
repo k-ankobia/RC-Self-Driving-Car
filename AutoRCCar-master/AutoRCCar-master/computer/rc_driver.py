@@ -28,7 +28,7 @@ class NeuralNetwork(object):
 class RCControl(object):
 
     def __init__(self):
-        self.serial_port = serial.Serial('/dev/tty.usbmodem1421', 115200, timeout=1)
+        self.serial_port = serial.Serial('COM3', 115200, timeout=1)
 
     def steer(self, prediction):
         if prediction == 2:
@@ -281,9 +281,9 @@ class ThreadServer(object):
         server = SocketServer.TCPServer((host, port), SensorDataHandler)
         server.serve_forever()
 
-    distance_thread = threading.Thread(target=server_thread2, args=('192.168.1.100', 8002))
+    distance_thread = threading.Thread(target=server_thread2, args=('192.168.0.63', 8002))
     distance_thread.start()
-    video_thread = threading.Thread(target=server_thread('192.168.1.100', 8000))
+    video_thread = threading.Thread(target=server_thread('192.168.0.63', 8000))
     video_thread.start()
 
 if __name__ == '__main__':
