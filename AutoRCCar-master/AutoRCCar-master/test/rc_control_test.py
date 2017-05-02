@@ -1,4 +1,4 @@
-__author__ = 'zhengwang'
+
 
 import serial
 import pygame

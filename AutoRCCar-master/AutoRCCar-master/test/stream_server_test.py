@@ -8,11 +8,17 @@ import socket
 class VideoStreamingTest(object):
     def __init__(self):
 
+
         self.server_socket = socket.socket()
+        print "test1"
         self.server_socket.bind(('192.168.0.63', 8000))
+        print "test2"
         self.server_socket.listen(0)
+        print "test3"
         self.connection, self.client_address = self.server_socket.accept()
+        print "test4"
         self.connection = self.connection.makefile('rb')
+        print "test5"
         self.streaming()
 
     def streaming(self):

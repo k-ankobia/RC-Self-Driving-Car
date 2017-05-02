@@ -1,4 +1,3 @@
-__author__ = 'zhengwang'
 
 import threading
 import SocketServer
