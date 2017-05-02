@@ -9,10 +9,12 @@ import socket
 pygame.display.set_mode((100, 100))
 
 class CollectTrainingData(object):
+    
     def __init__(self):
 
         self.server_socket = socket.socket()
-        self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
+        #self.server_socket =
+        self.server_socket.bind(('192.168.0.63', 8000))
         self.server_socket.listen(0)
 
         # accept a single connection
@@ -54,19 +56,19 @@ class CollectTrainingData(object):
                     jpg = stream_bytes[first:last + 2]
                     stream_bytes = stream_bytes[last + 2:]
                     image = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_GRAYSCALE)
-
+                    
                     # select lower half of the image
                     roi = image[120:240, :]
-
+                    
                     # save streamed images
                     cv2.imwrite('training_images/frame{:>05}.jpg'.format(frame), image)
-
-                    # cv2.imshow('roi_image', roi)
+                    
+                    #cv2.imshow('roi_image', roi)
                     cv2.imshow('image', image)
-
+                    
                     # reshape the roi image into one row array
                     temp_array = roi.reshape(1, 38400).astype(np.float32)
-
+                    
                     frame += 1
                     total_frame += 1
 
@@ -93,7 +95,7 @@ class CollectTrainingData(object):
                             elif key_input[pygame.K_DOWN] and key_input[pygame.K_RIGHT]:
                                 print("Reverse Right")
                                 self.ser.write(chr(8))
-
+                            
                             elif key_input[pygame.K_DOWN] and key_input[pygame.K_LEFT]:
                                 print("Reverse Left")
                                 self.ser.write(chr(9))
@@ -112,7 +114,7 @@ class CollectTrainingData(object):
                                 image_array = np.vstack((image_array, temp_array))
                                 label_array = np.vstack((label_array, self.k[3]))
                                 self.ser.write(chr(2))
-
+                            
                             elif key_input[pygame.K_RIGHT]:
                                 print("Right")
                                 image_array = np.vstack((image_array, temp_array))
@@ -132,7 +134,7 @@ class CollectTrainingData(object):
                                 self.send_inst = False
                                 self.ser.write(chr(0))
                                 break
-
+                                    
                         elif event.type == pygame.KEYUP:
                             self.ser.write(chr(0))
 
@@ -157,7 +159,6 @@ class CollectTrainingData(object):
         finally:
             self.connection.close()
             self.server_socket.close()
-
 
 if __name__ == '__main__':
     CollectTrainingData()
