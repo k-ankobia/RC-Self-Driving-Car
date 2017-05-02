@@ -31,7 +31,7 @@ class CollectTrainingData(object):
 
         print "test2"
         pygame.init()
-        #pygame.display.set_mode((100, 100))
+        pygame.display.set_mode((100, 100))
         self.collect_image()
 
     def collect_image(self):
