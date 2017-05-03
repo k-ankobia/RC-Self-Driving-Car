@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 import glob
-
+from numpy import np
 
 # load training data
 image_array = np.zeros((1, 38400))

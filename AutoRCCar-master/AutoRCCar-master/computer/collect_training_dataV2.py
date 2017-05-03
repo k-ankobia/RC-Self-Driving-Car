@@ -7,9 +7,11 @@ import pygame
 from pygame.locals import *
 import socket
 
+
 class CollectTrainingData(object):
     def __init__(self):
-        print "test1"
+        #SETUP PC SERVER TO ACCEPT STREAMED VIDEO FROM CLIENT ON RASPBERRY PI 
+        print "setting up pc server " 
         self.server_socket = socket.socket()
         print "test1"
         self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
@@ -19,17 +21,19 @@ class CollectTrainingData(object):
 
         # accept a single connection
         self.connection = self.server_socket.accept()[0].makefile('rb')
-
-        # connect to a serial port
+        
+        ######### CONNECT TO SERIAL AT COM 3 and inititalise send_inst##########   
+                # connect to a serial port
         self.ser = serial.Serial('COM3', 115200, timeout=1)
         self.send_inst = True
-        # create labels
+        
+        ############## create labels 
         self.k = np.zeros((4, 4), 'float')
         for i in range(4):
             self.k[i, i] = 1
         self.temp_label = np.zeros((1, 4), 'float')
 
-        print "test2"
+        print "initiate pygame"
         pygame.init()
         pygame.display.set_mode((100, 100))
         self.collect_image()
@@ -41,14 +45,17 @@ class CollectTrainingData(object):
 
         # collect images for training
         print 'Start collecting images...'
-        e1 = cv2.getTickCount()
+        ####### start counting time 
+        e1 = cv2.getTickCount() 
         image_array = np.zeros((1, 38400))
+        ########## creates a 1 x 384000 array for camera frames
         label_array = np.zeros((1, 4), 'float')
-
+        ########### CREATSE 1 X 4 array for labels 
         # stream video frames one by one
         try:
             stream_bytes = ' '
             frame = 1
+            ###### while send_inst is true start capturing streaming data######### need clarification! 
             while self.send_inst:
                 stream_bytes += self.connection.read(1024)
                 first = stream_bytes.find('\xff\xd8')
@@ -66,7 +73,7 @@ class CollectTrainingData(object):
 
                     # cv2.imshow('roi_image', roi)
                     cv2.imshow('image', image)
-
+                    
                     # reshape the roi image into one row array
                     temp_array = roi.reshape(1, 38400).astype(np.float32)
 
@@ -157,7 +164,8 @@ class CollectTrainingData(object):
             print 'Saved frame:', saved_frame
             print 'Dropped frame', total_frame - saved_frame
 
-        finally:
+            ######## LOSES CONNECTION 
+        finally: 
             self.connection.close()
             self.server_socket.close()
 
