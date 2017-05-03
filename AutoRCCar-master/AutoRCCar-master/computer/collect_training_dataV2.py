@@ -28,7 +28,7 @@ class CollectTrainingData(object):
         self.send_inst = True
         
         ############## create labels 
-        self.k = np.zeros((4, 4), 'float')
+        self.k = np.zeros((4, 4), 'float') ###### where k is the empty float for keyboard press 
         for i in range(4):
             self.k[i, i] = 1
         self.temp_label = np.zeros((1, 4), 'float')
@@ -73,9 +73,9 @@ class CollectTrainingData(object):
 
                     # cv2.imshow('roi_image', roi)
                     cv2.imshow('image', image)
-                    
+
                     # reshape the roi image into one row array
-                    temp_array = roi.reshape(1, 38400).astype(np.float32)
+                    temp_array = roi.reshape(1, 38400).astype(np.float32) ###### reshaped into a 1x38400 float
 
                     frame += 1
                     total_frame += 1
@@ -88,8 +88,8 @@ class CollectTrainingData(object):
                             # complex orders
                             if key_input[pygame.K_UP] and key_input[pygame.K_RIGHT]:
                                 print("Forward Right")
-                                image_array = np.vstack((image_array, temp_array))
-                                label_array = np.vstack((label_array, self.k[1]))
+                                image_array = np.vstack((image_array, temp_array)) #########vstack camera frame after the label np.zeros (1,38400)
+                                label_array = np.vstack((label_array, self.k[1])) ##### vstack empty label array with new keyboard press array
                                 saved_frame += 1
                                 self.ser.write(chr(6))
 
@@ -146,7 +146,7 @@ class CollectTrainingData(object):
                         elif event.type == pygame.KEYUP:
                             self.ser.write(chr(0))
 
-            # save training images and labels
+            # save training images and labels      ##############what does this do ? ##############
             train = image_array[1:, :]
             train_labels = label_array[1:, :]
 
