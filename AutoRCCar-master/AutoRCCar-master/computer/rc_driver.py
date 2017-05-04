@@ -29,8 +29,8 @@ class RCControl(object):
 
     def __init__(self):
         self.serial_port = serial.Serial('COM3', 115200, timeout=1)
-
-    def steer(self, prediction):
+        ## model is laoded and if car drives based on if prediction is a a 0, 1, 2 
+    def steer(self, prediction): 
         if prediction == 2:
             self.serial_port.write(chr(1))
             print("Forward")
@@ -178,25 +178,25 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
         # stream video frames one by one
         try:
             while True:
-                stream_bytes += self.rfile.read(1024)
+                stream_bytes += self.rfile.read(1024) # streams data
                 first = stream_bytes.find('\xff\xd8')
                 last = stream_bytes.find('\xff\xd9')
                 if first != -1 and last != -1:
                     jpg = stream_bytes[first:last+2]
                     stream_bytes = stream_bytes[last+2:]
-                    gray = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_GRAYSCALE)
+                    gray = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_GRAYSCALE) #Reads an image from a buffer in memory. 
                     image = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_UNCHANGED)
 
                     # lower half of the image
-                    half_gray = gray[120:240, :]
+                    half_gray = gray[120:240, :] # region of interest for each image 
 
                     # object detection
-                    v_param1 = self.obj_detection.detect(self.stop_cascade, gray, image)
+                    v_param1 = self.obj_detection.detect(self.stop_cascade, gray, image) # code for object detection 
                     v_param2 = self.obj_detection.detect(self.light_cascade, gray, image)
 
                     # distance measurement
                     if v_param1 > 0 or v_param2 > 0:
-                        d1 = self.d_to_camera.calculate(v_param1, self.h1, 300, image)
+                        d1 = self.d_to_camera.calculate(v_param1, self.h1, 300, image) #code for distance measuring
                         d2 = self.d_to_camera.calculate(v_param2, self.h2, 100, image)
                         self.d_stop_sign = d1
                         self.d_light = d2
@@ -205,10 +205,10 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
                     #cv2.imshow('mlp_image', half_gray)
 
                     # reshape image
-                    image_array = half_gray.reshape(1, 38400).astype(np.float32)
+                    image_array = half_gray.reshape(1, 38400).astype(np.float32) # image is being reshaped into numpy array for neural net
                     
                     # neural network makes prediction
-                    prediction = self.model.predict(image_array)
+                    prediction = self.model.predict(image_array) # similar to prediction made in test  
 
                     # stop conditions
                     if sensor_data is not None and sensor_data < 30:

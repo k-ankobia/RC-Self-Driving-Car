@@ -2,22 +2,24 @@
 import cv2
 import numpy as np
 import glob
-from numpy import np
+#from numpy import np
 
-# load training data
+
+# load empty training data
 image_array = np.zeros((1, 38400))
 label_array = np.zeros((1, 4), 'float')
 training_data = glob.glob('testing_data/*.npz')
 
+
 for single_npz in training_data:
     with np.load(single_npz) as data:
-        print data.files
+    	print data.files    ###### prints ['train_labels', 'train']
         test_temp = data['train']
         test_labels_temp = data['train_labels']
         print test_temp.shape
         print test_labels_temp.shape
-    image_array = np.vstack((image_array, test_temp))
-    label_array = np.vstack((label_array, test_labels_temp))
+    image_array = np.vstack((image_array, test_temp))  ## stacks empty array with new array
+    label_array = np.vstack((label_array, test_labels_temp)) ## stacks empty array with new array
 
 test = image_array[1:, :]
 test_labels = label_array[1:, :]

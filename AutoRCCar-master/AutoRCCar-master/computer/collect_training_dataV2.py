@@ -152,6 +152,7 @@ class CollectTrainingData(object):
 
             # save training data as a numpy file
             np.savez('training_data_temp/test01.npz', train=train, train_labels=train_labels)
+            
 
             e2 = cv2.getTickCount()
             # calculate streaming duration
