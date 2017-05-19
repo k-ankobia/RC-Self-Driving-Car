@@ -13,11 +13,11 @@ class CollectTrainingData(object):
         #SETUP PC SERVER TO ACCEPT STREAMED VIDEO FROM CLIENT ON RASPBERRY PI 
         print "setting up pc server " 
         self.server_socket = socket.socket()
-        print "test1"
+        #print "test1"
         self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
-        print "test1"
+        #print "test1"
         self.server_socket.listen(0)
-        print "test1"
+        print "Please start Pi Client"
 
         # accept a single connection
         self.connection = self.server_socket.accept()[0].makefile('rb')

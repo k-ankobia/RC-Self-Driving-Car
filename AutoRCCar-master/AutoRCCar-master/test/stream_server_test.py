@@ -10,15 +10,15 @@ class VideoStreamingTest(object):
 
 
         self.server_socket = socket.socket()
-        print "test1"
+        print "starting connection"
         self.server_socket.bind(('192.168.0.63', 8000))
-        print "test2"
+        #print "test2"
         self.server_socket.listen(0)
-        print "test3"
+        print "Please Start client Program"
         self.connection, self.client_address = self.server_socket.accept()
-        print "test4"
+        print "Connecting..."
         self.connection = self.connection.makefile('rb')
-        print "test5"
+
         self.streaming()
 
     def streaming(self):

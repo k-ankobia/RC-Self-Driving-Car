@@ -7,6 +7,8 @@ from pygame.locals import *
 
 class RCTest(object):
 
+### inititate pyggame window for motor controls##
+### set serial communcition to COM3
     def __init__(self):
         pygame.init()
         pygame.display.set_mode((100, 100))
@@ -14,6 +16,9 @@ class RCTest(object):
         self.send_inst = True     # command to send or it terminates later with pygame
         self.steer()
 
+### events from keyboards are written to serial port
+###  chr(6) sends integer 6 to serial port
+### key X or key Q will end pygame
     def steer(self):
 
         while self.send_inst:
@@ -25,26 +30,26 @@ class RCTest(object):
                     if key_input[pygame.K_UP] and key_input[pygame.K_RIGHT]:
                         print("Forward Right")
                         self.ser.write(chr(6))   # write a 6 to the arduino connected at serial port 115200
-                    #
-                    # elif key_input[pygame.K_UP] and key_input[pygame.K_LEFT]:
-                    #     print("Forward Left")
-                    #     self.ser.write(chr(7))
-                    #
-                    # elif key_input[pygame.K_DOWN] and key_input[pygame.K_RIGHT]:
-                    #     print("Reverse Right")
-                    #     self.ser.write(chr(8))
-                    #
-                    # elif key_input[pygame.K_DOWN] and key_input[pygame.K_LEFT]:
-                    #     print("Reverse Left")
-                    #     self.ser.write(chr(9))
 
-                    # simple orders
+                    elif key_input[pygame.K_UP] and key_input[pygame.K_LEFT]:
+                        print("Forward Left")
+                        self.ser.write(chr(7))
+
+                    elif key_input[pygame.K_DOWN] and key_input[pygame.K_RIGHT]:
+                        print("Reverse Right")
+                        self.ser.write(chr(8))
+
+                    elif key_input[pygame.K_DOWN] and key_input[pygame.K_LEFT]:
+                        print("Reverse Left")
+                        self.ser.write(chr(9))
+
+#                    simple orders
                     elif key_input[pygame.K_UP]:
                         print("Forward")
                         self.ser.write(chr(1))
 
                     elif key_input[pygame.K_DOWN]:
-                        print"Reverse %d", chr(2)
+                        print"Reverse", chr(2)
                         self.ser.write(chr(2))
 
                     elif key_input[pygame.K_RIGHT]:
@@ -54,7 +59,6 @@ class RCTest(object):
                     elif key_input[pygame.K_LEFT]:
                         print("Left")
                         self.ser.write(chr(4))
-
 
                     # exit
                     elif key_input[pygame.K_x] or key_input[pygame.K_q]:

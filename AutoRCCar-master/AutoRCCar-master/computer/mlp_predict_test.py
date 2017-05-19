@@ -35,7 +35,7 @@ model.load('mlp_xml/mlp.xml')
 # generate predictions
 e0 = cv2.getTickCount()
 ret, resp = model.predict(test)
-prediction = resp.argmax(-1)
+prediction = resp.argmax(-1)      ####### printsout value of highest probability. check tariq book pg 161
 e00 = cv2.getTickCount()
 time0 = (e00 - e0)/cv2.getTickFrequency()
 print 'Prediction time per frame:', time0/(test.shape[0])
@@ -50,3 +50,27 @@ num_correct = np.sum( true_labels == prediction )
 print(num_correct)
 test_rate = np.mean(prediction == true_labels)
 print 'Test rate: %f' % (test_rate*100)
+
+
+########SCORECARD TEST RESULTS ##############        - MODELLED ON TARIQ
+
+# scorecard = []
+#
+# # append correct or incorrect to list
+# correct_label= np.split(true_labels,1)
+# label= np.split(prediction,1)
+#
+# if (correct_label == label):
+#     # network's answer matches correct answer, add 1 to scorecard
+#     scorecard.append(1)
+# else:
+#     # network's answer doesn't match correct answer, add 0 to scorecard
+#     scorecard.append(0)
+#     pass
+#
+# pass
+#
+# # calculate the performance score, the fraction of correct answers
+# scorecard_array = numpy.asarray(scorecard)
+# print ("performance = ", scorecard_array.sum() / scorecard_array.size)
+

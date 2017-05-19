@@ -30,9 +30,9 @@ class RCControl(object):
     def __init__(self):
         self.serial_port = serial.Serial('COM3', 115200, timeout=1)
         ## model is laoded and if car drives based on if prediction is a a 0, 1, 2 
-    def steer(self, prediction): 
+    def steer(self, prediction):  ############  DRIVING BASED ON NEURAL NET PREDICTIONS ############
         if prediction == 2:
-            self.serial_port.write(chr(1))
+            self.serial_port.write(chr(1))   ######## CHARACTER WRITTEN TO ARDUINO FOR NEURAL NET############
             print("Forward")
         elif prediction == 0:
             self.serial_port.write(chr(7))
@@ -47,7 +47,7 @@ class RCControl(object):
         self.serial_port.write(chr(0))
 
 
-class DistanceToCamera(object):
+class DistanceToCamera(object):     ###### CAN COMMENT THIS PART IF NOT USING DISTANCE DETECTION######
 
     def __init__(self):
         # camera params
@@ -64,7 +64,7 @@ class DistanceToCamera(object):
         return d
 
 
-class ObjectDetection(object):
+class ObjectDetection(object):  ########## CLASS FOR OBJECT DETECTION [LIKE VOID FORWARD BACK LEFT RIGHT IN ARDUINO]#######
 
     def __init__(self):
         self.red_light = False
@@ -80,7 +80,7 @@ class ObjectDetection(object):
         threshold = 150     
         
         # detection
-        cascade_obj = cascade_classifier.detectMultiScale(
+        cascade_obj = cascade_classifier.detectMultiScale(       ###### CASCADE DETECTION CODE '#######'
             gray_image,
             scaleFactor=1.1,
             minNeighbors=5,
@@ -90,13 +90,13 @@ class ObjectDetection(object):
 
         # draw a rectangle around the objects
         for (x_pos, y_pos, width, height) in cascade_obj:
-            cv2.rectangle(image, (x_pos+5, y_pos+5), (x_pos+width-5, y_pos+height-5), (255, 255, 255), 2)
+            cv2.rectangle(image, (x_pos+5, y_pos+5), (x_pos+width-5, y_pos+height-5), (255, 255, 255), 2) ##### DRAWING RECTACNGLE 
             v = y_pos + height - 5
             #print(x_pos+5, y_pos+5, x_pos+width-5, y_pos+height-5, width, height)
 
             # stop sign
             if width/height == 1:
-                cv2.putText(image, 'STOP', (x_pos, y_pos-10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                cv2.putText(image, 'STOP', (x_pos, y_pos-10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2) ##### PRINTING STOP SGN
             
             # traffic lights
             else:
@@ -125,7 +125,7 @@ class ObjectDetection(object):
         return v
 
 
-class SensorDataHandler(SocketServer.BaseRequestHandler):
+class SensorDataHandler(SocketServer.BaseRequestHandler):    ############## SECOND TRHEAD FOR READING SENSOR DATA####
 
     data = " "
 
@@ -141,7 +141,7 @@ class SensorDataHandler(SocketServer.BaseRequestHandler):
             print "Connection closed on thread 2"
 
 
-class VideoStreamHandler(SocketServer.StreamRequestHandler):
+class VideoStreamHandler(SocketServer.StreamRequestHandler):  ####### MAIN THREAD THAT HANDLS DRIVING FROM STREAM #######
 
     # h1: stop sign
     h1 = 15.5 - 10  # cm
@@ -149,15 +149,15 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
     h2 = 15.5 - 10
 
     # create neural network
-    model = NeuralNetwork()
+    model = NeuralNetwork()          # CREATES NN ON LINES  13 TO 18 ##########
     model.create()
 
     obj_detection = ObjectDetection()
     rc_car = RCControl()
 
     # cascade classifiers
-    stop_cascade = cv2.CascadeClassifier('cascade_xml/stop_sign.xml')
-    light_cascade = cv2.CascadeClassifier('cascade_xml/traffic_light.xml')
+    stop_cascade = cv2.CascadeClassifier('cascade_xml/stop_sign.xml')           ####### LOADS CASCADE CLASSIFIER XML
+    light_cascade = cv2.CascadeClassifier('cascade_xml/traffic_light.xml')        ######### LOADS LIGHTS CLASSIFIER XML 
 
     d_to_camera = DistanceToCamera()
     d_stop_sign = 25
@@ -178,20 +178,20 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
         # stream video frames one by one
         try:
             while True:
-                stream_bytes += self.rfile.read(1024) # streams data
+                stream_bytes += self.rfile.read(1024) #******** VERY IMPORTANT WE ARE STREAMING DATA streams data
                 first = stream_bytes.find('\xff\xd8')
                 last = stream_bytes.find('\xff\xd9')
                 if first != -1 and last != -1:
                     jpg = stream_bytes[first:last+2]
                     stream_bytes = stream_bytes[last+2:]
-                    gray = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_GRAYSCALE) #Reads an image from a buffer in memory. 
+                    gray = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_GRAYSCALE) #******Reads an image from a buffer in memory. 
                     image = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_UNCHANGED)
 
                     # lower half of the image
                     half_gray = gray[120:240, :] # region of interest for each image 
 
                     # object detection
-                    v_param1 = self.obj_detection.detect(self.stop_cascade, gray, image) # code for object detection 
+                    v_param1 = self.obj_detection.detect(self.stop_cascade, gray, image) # ******code for object detection 
                     v_param2 = self.obj_detection.detect(self.light_cascade, gray, image)
 
                     # distance measurement
@@ -205,17 +205,17 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
                     #cv2.imshow('mlp_image', half_gray)
 
                     # reshape image
-                    image_array = half_gray.reshape(1, 38400).astype(np.float32) # image is being reshaped into numpy array for neural net
+                    image_array = half_gray.reshape(1, 38400).astype(np.float32) #******* image is being reshaped into numpy array for neural net
                     
                     # neural network makes prediction
-                    prediction = self.model.predict(image_array) # similar to prediction made in test  
+                    prediction = self.model.predict(image_array) # *******similar to prediction made in test oimage_array is output form cam feed  
 
                     # stop conditions
-                    if sensor_data is not None and sensor_data < 30:
+                    if sensor_data is not None and sensor_data < 30: #####  STOPPING WITH SENSOR DATA  ####
                         print("Stop, obstacle in front")
                         self.rc_car.stop()
                     
-                    elif 0 < self.d_stop_sign < 25 and stop_sign_active:
+                    elif 0 < self.d_stop_sign < 25 and stop_sign_active: #####  LOADING STOP_SIGN_ACTIVE:TRUE  ####
                         print("Stop sign ahead")
                         self.rc_car.stop()
 
@@ -274,16 +274,16 @@ class VideoStreamHandler(SocketServer.StreamRequestHandler):
 class ThreadServer(object):
 
     def server_thread(host, port):
-        server = SocketServer.TCPServer((host, port), VideoStreamHandler)
+        server = SocketServer.TCPServer((host, port), VideoStreamHandler) ###### MAIN THREAD FOR DRIVING THE CAR #######
         server.serve_forever()
 
     def server_thread2(host, port):
-        server = SocketServer.TCPServer((host, port), SensorDataHandler)
+        server = SocketServer.TCPServer((host, port), SensorDataHandler)##### SENCOND THREAD FOR READING ULTRASONIC DATA#########
         server.serve_forever()
 
-    distance_thread = threading.Thread(target=server_thread2, args=('192.168.0.63', 8002))
+    distance_thread = threading.Thread(target=server_thread2, args=('192.168.0.63', 8002))  ####### TREAHD2 FOR DISTANCE SENSOR ###
     distance_thread.start()
-    video_thread = threading.Thread(target=server_thread('192.168.0.63', 8000))
+    video_thread = threading.Thread(target=server_thread('192.168.0.63', 8000))##### THREAD ONE FOR VID STREAM AND DRIVING ####
     video_thread.start()
 
 if __name__ == '__main__':
