@@ -3,9 +3,10 @@ Reference:
 PiCamera documentation
 https://picamera.readthedocs.org/en/release-1.10/recipes2.html
 
+Binary stream python understands.
 """
 
-import io
+import     #python interface to stream handling
 import socket
 import struct
 import time

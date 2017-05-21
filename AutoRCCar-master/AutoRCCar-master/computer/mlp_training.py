@@ -1,4 +1,4 @@
-__author__ = 'zhengwang'
+
 
 import cv2
 import numpy as np
@@ -46,7 +46,7 @@ params = dict(term_crit = criteria,
                bp_dw_scale = 0.001,
                bp_moment_scale = 0.0 )
 #cv2.ANN_MLP.train(inputs, outputs, sampleWeights[, sampleIdx[, params[, flags]]])
-print 'Training Neural Network ...'
+print 'Training Neural Network   ...'
 num_iter = model.train(train, train_labels, None, params = params)
 
 # set end time

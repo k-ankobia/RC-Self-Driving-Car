@@ -1,4 +1,3 @@
-__author__ = 'zhengwang'
 
 import numpy as np
 import cv2
@@ -40,7 +39,7 @@ class VideoStreamingTest(object):
                     image = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.CV_LOAD_IMAGE_UNCHANGED)
                     cv2.imshow('image', image)
 
-                    if cv2.waitKey(1) & 0xFF == ord('q'):
+                    if cv2.waitKey(1) & 0xFF == ord('q'): ### use keyboard input 1 to quit window.
                         break
         finally:
             self.connection.close()

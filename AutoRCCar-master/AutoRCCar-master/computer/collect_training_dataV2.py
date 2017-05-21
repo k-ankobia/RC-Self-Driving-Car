@@ -1,4 +1,6 @@
-
+"""
+Referencing: socket connection - How to
+https://docs.python.org/2/howto/sockets.html"""
 
 import numpy as np
 import cv2
@@ -13,11 +15,11 @@ class CollectTrainingData(object):
         #SETUP PC SERVER TO ACCEPT STREAMED VIDEO FROM CLIENT ON RASPBERRY PI 
         print "setting up pc server " 
         self.server_socket = socket.socket()
-        #print "test1"
+        print "test1"
         self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
-        #print "test1"
+        print "test1"
         self.server_socket.listen(0)
-        print "Please start Pi Client"
+        print "test1"
 
         # accept a single connection
         self.connection = self.server_socket.accept()[0].makefile('rb')
@@ -75,7 +77,7 @@ class CollectTrainingData(object):
                     cv2.imshow('image', image)
 
                     # reshape the roi image into one row array
-                    temp_array = roi.reshape(1, 38400).astype(np.float32) ###### reshaped into a 1x38400 float
+                    temp_array = roi.reshape(1, 38400).astype(np.float32) ###### incomin picture is reshaped into a 1x38400 float
 
                     frame += 1
                     total_frame += 1
@@ -146,12 +148,12 @@ class CollectTrainingData(object):
                         elif event.type == pygame.KEYUP:
                             self.ser.write(chr(0))
 
-            # save training images and labels      ##############what does this do ? ##############
+            # save training images and labels      ##############remove empty frames ##############
             train = image_array[1:, :]
             train_labels = label_array[1:, :]
 
             # save training data as a numpy file
-            np.savez('training_data_temp/test01.npz', train=train, train_labels=train_labels)
+            np.savez('training_data_temp/test01.npz', train=train, train_labels=train_labels)######## what does this do? ######
             
 
             e2 = cv2.getTickCount()

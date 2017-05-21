@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922ec835-b3a3-4c71-8dfe-4b7eb374332b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/testing_data/test01.npz" afterPath="$PROJECT_DIR$/computer/testing_data/test01.npz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_data/test01.npz" afterPath="$PROJECT_DIR$/computer/training_data/test01.npz" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/computer/training_data/test01.npz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_data_temp/test01.npz" afterPath="$PROJECT_DIR$/computer/training_data_temp/test01.npz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00001.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00001.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00002.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00002.jpg" />
@@ -270,13 +269,220 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00263.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00263.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00264.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00264.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00265.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00265.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00266.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00266.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00267.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00267.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00268.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00268.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00269.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00269.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00270.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00270.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00271.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00271.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00272.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00272.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00273.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00273.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00274.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00274.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00275.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00275.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00276.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00276.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00277.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00277.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00278.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00278.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00279.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00279.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00280.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00280.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00281.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00281.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00282.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00282.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00283.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00283.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00284.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00284.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00285.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00285.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00286.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00286.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00287.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00287.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00288.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00288.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00289.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00289.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00290.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00290.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00291.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00291.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00292.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00292.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00293.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00293.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00294.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00294.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00295.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00295.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00296.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00296.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00297.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00297.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00298.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00298.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00299.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00299.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00300.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00300.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00301.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00301.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00302.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00302.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00303.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00303.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00304.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00304.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00305.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00305.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00306.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00306.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00307.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00307.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00308.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00308.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00309.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00309.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00310.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00310.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00311.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00311.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00312.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00312.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00313.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00313.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00314.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00314.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00315.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00315.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00316.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00316.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00317.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00317.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00318.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00318.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00319.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00319.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00320.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00321.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00321.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00322.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00322.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00323.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00323.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00324.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00324.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00325.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00325.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00326.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00326.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00327.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00327.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00328.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00328.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00329.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00329.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00330.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00330.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00331.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00331.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00332.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00332.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00333.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00333.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00334.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00334.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00335.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00335.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00336.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00336.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00337.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00337.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00338.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00338.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00339.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00339.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00340.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00340.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00341.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00341.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00342.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00342.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00343.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00343.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00344.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00344.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00345.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00345.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00346.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00346.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00347.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00347.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00348.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00348.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00349.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00349.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00350.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00350.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00351.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00351.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00352.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00352.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00353.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00353.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00354.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00354.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00355.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00355.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00356.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00356.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00357.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00357.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00358.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00358.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00359.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00359.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00360.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00360.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00361.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00361.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00362.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00362.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00363.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00363.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00364.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00364.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00365.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00365.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00366.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00366.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00367.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00367.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00368.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00368.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00369.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00369.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00370.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00370.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00371.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00371.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00372.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00372.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00373.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00373.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00374.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00374.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00375.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00375.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00376.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00376.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00377.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00377.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00378.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00378.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00379.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00379.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00380.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00380.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00381.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00381.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00382.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00382.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00383.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00383.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00384.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00384.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00385.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00385.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00386.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00386.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00387.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00387.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00388.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00388.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00389.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00389.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00390.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00390.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00391.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00391.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00392.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00392.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00393.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00393.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00394.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00394.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00395.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00395.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00396.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00396.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00397.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00397.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00398.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00398.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00399.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00399.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00400.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00400.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00401.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00401.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00402.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00402.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00403.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00403.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00404.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00404.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00405.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00405.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00406.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00406.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00407.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00407.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00408.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00408.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00409.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00409.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00410.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00410.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00411.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00411.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00412.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00412.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00413.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00413.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00414.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00414.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00415.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00415.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00416.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00416.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00417.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00417.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00418.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00418.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00419.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00419.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00420.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00420.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00421.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00421.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00422.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00422.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00423.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00423.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00424.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00424.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00425.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00425.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00426.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00426.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00427.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00427.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00428.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00428.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00429.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00429.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00430.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00430.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00431.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00431.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00432.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00432.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00433.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00433.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00434.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00434.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00435.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00435.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00436.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00436.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00437.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00437.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00438.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00438.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00439.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00439.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00440.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00440.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00441.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00441.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00442.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00442.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00443.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00443.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00444.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00444.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00445.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00445.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00446.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00446.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00447.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00447.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00448.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00448.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00449.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00449.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00450.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00450.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00451.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00451.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00452.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00452.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00453.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00453.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00454.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00454.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00455.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00455.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00456.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00456.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00457.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00457.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00458.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00458.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00459.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00459.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00460.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00460.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00461.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00461.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00462.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00462.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00463.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00463.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00464.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00464.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00465.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00465.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00466.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00466.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00467.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00467.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00468.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00468.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00469.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00469.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00470.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00470.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00471.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00471.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00472.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00472.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00473.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00473.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00474.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00474.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/training_images/frame00475.jpg" afterPath="$PROJECT_DIR$/computer/training_images/frame00475.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/collect_training_dataV2.py" afterPath="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/mlp_predict_test.py" afterPath="$PROJECT_DIR$/computer/mlp_predict_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/mlp_training.py" afterPath="$PROJECT_DIR$/computer/mlp_training.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/mlp_xml/mlp.xml" afterPath="$PROJECT_DIR$/computer/mlp_xml/mlp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/computer/rc_driver.py" afterPath="$PROJECT_DIR$/computer/rc_driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/rc_control_test.py" afterPath="$PROJECT_DIR$/test/rc_control_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspberryPi/stream_client.py" afterPath="$PROJECT_DIR$/raspberryPi/stream_client.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/stream_server_test.py" afterPath="$PROJECT_DIR$/test/stream_server_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -295,7 +501,7 @@
       <file leaf-file-name="mlp_predict_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/computer/mlp_predict_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
+            <state relative-caret-position="464">
               <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
@@ -317,8 +523,8 @@
       <file leaf-file-name="mlp_training.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/computer/mlp_training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="185">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -327,8 +533,8 @@
       <file leaf-file-name="rc_driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/computer/rc_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="304">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <marker date="1494178825684" expanded="false" signature="11523:11548" ph="..." />
               </folding>
@@ -339,28 +545,32 @@
       <file leaf-file-name="stream_server_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/stream_server_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="493">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect_training_dataV2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="collect_training_dataV2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/computer/collect_training_dataV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2704">
-              <caret line="174" column="25" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#93#111#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rc_control_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rc_control_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="720">
+              <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -402,6 +612,10 @@
       <find>argmax</find>
       <find>true_</find>
       <find>label</find>
+      <find>COLLECT</find>
+      <find>ord</find>
+      <find>collecttrain</find>
+      <find>arra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -413,12 +627,13 @@
       <list>
         <option value="$PROJECT_DIR$/test/sockets stream test.py" />
         <option value="$PROJECT_DIR$/computer/collect_training_data.py" />
-        <option value="$PROJECT_DIR$/test/stream_server_test.py" />
         <option value="$PROJECT_DIR$/computer/rc_driver.py" />
         <option value="$PROJECT_DIR$/computer/mlp_predict_test.py" />
-        <option value="$PROJECT_DIR$/computer/mlp_training.py" />
-        <option value="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
         <option value="$PROJECT_DIR$/test/rc_control_test.py" />
+        <option value="$PROJECT_DIR$/test/stream_server_test.py" />
+        <option value="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
+        <option value="$PROJECT_DIR$/computer/mlp_training.py" />
+        <option value="$PROJECT_DIR$/raspberryPi/stream_client.py" />
       </list>
     </option>
   </component>
@@ -461,25 +676,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rc_control_test">
-    <configuration default="false" name="collect_training_dataV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutoRCCar-master" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.rc_driver">
     <configuration default="false" name="mlp_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -516,6 +713,42 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="stream_server_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoRCCar-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/stream_server_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="collect_training_dataV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoRCCar-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer/collect_training_dataV2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="rc_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -529,24 +762,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutoRCCar-master" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer/rc_driver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mlp_predict_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AutoRCCar-master" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer/mlp_predict_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -618,19 +833,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.collect_training_dataV2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mlp_training" />
-      <item index="2" class="java.lang.String" itemvalue="Python.rc_control_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.rc_driver" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mlp_predict_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mlp_training" />
+      <item index="1" class="java.lang.String" itemvalue="Python.rc_control_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stream_server_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.collect_training_dataV2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rc_driver" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.rc_control_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rc_driver" />
         <item index="1" class="java.lang.String" itemvalue="Python.mlp_training" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mlp_predict_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rc_driver" />
-        <item index="4" class="java.lang.String" itemvalue="Python.collect_training_dataV2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.collect_training_dataV2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.rc_control_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.stream_server_test" />
       </list>
     </recent_temporary>
   </component>
@@ -671,12 +886,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14537445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.1068814" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38328075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17507887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.8931186" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3472" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34700316" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.01688693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -969,7 +1184,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="110" />
+      <option name="time" value="112" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -978,16 +1193,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/computer/mlp_predict_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/computer/mlp_training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -1000,7 +1205,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,7 +1215,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2304">
           <caret line="149" column="33" lean-forward="true" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#93#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,24 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/stream_server_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/computer/rc_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <marker date="1494178825684" expanded="false" signature="11523:11548" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/glob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1333,9 +1524,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/stream_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computer/mlp_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/computer/mlp_predict_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
+        <state relative-caret-position="464">
           <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
@@ -1343,27 +1560,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/computer/mlp_training.py">
+    <entry file="file://$PROJECT_DIR$/raspberryPi/stream_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#141#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computer/rc_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <marker date="1494178825684" expanded="false" signature="11523:11548" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/computer/collect_training_dataV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2704">
-          <caret line="174" column="25" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/rc_control_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
