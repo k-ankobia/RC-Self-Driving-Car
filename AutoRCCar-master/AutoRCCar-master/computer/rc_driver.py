@@ -281,9 +281,9 @@ class ThreadServer(object):
         server = SocketServer.TCPServer((host, port), SensorDataHandler)##### SENCOND THREAD FOR READING ULTRASONIC DATA#########
         server.serve_forever()
 
-    distance_thread = threading.Thread(target=server_thread2, args=('192.168.0.63', 8002))  ####### TREAHD2 FOR DISTANCE SENSOR ###
+    distance_thread = threading.Thread(target=server_thread2, args=('10.0.0.7', 8002))  ####### TREAHD2 FOR DISTANCE SENSOR ###
     distance_thread.start()
-    video_thread = threading.Thread(target=server_thread('192.168.0.63', 8000))##### THREAD ONE FOR VID STREAM AND DRIVING ####
+    video_thread = threading.Thread(target=server_thread('10.0.0.7', 8000))##### THREAD ONE FOR VID STREAM AND DRIVING ####
     video_thread.start()
 
 if __name__ == '__main__':

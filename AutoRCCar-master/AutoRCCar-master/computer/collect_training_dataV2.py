@@ -16,7 +16,7 @@ class CollectTrainingData(object):
         print "setting up pc server " 
         self.server_socket = socket.socket()
         print "test1"
-        self.server_socket.bind(('192.168.0.63', 8000)) # use pc address
+        self.server_socket.bind(('10.0.0.7', 8000)) # use pc address
         print "test1"
         self.server_socket.listen(0)
         print "test1"
@@ -37,7 +37,7 @@ class CollectTrainingData(object):
 
         print "initiate pygame"
         pygame.init()
-        pygame.display.set_mode((100, 100))
+        pygame.display.set_mode((200, 200))
         self.collect_image()
 
     def collect_image(self):

@@ -15,7 +15,7 @@ import picamera
 ##########client socket to stream images at 10fps to pc
 # create socket and bind host
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.1.100', 8000))
+client_socket.connect(('10.0.0.7', 8000))
 connection = client_socket.makefile('wb')
 
 try:
