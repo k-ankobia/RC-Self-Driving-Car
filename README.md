@@ -3,17 +3,25 @@
 ## Modified RC Car
 ![photo_of_car](images/car_front.JPG "Car")
 
+## Hardware
+```
+Ultrasonic Sensors
+Motor controller
+Pi- Camera
+Raspberry PI 
+PC ( Processing)
+```
 
 
 
 ## Training The Car 
-![Training_car](images/Training_Car.gif "Training")
+![Training_car](images/car_driving.gif "Training")
 
 
 
 
 
-![System_Overview](images/full_system_view.png "System_view")
+
 
 
 
@@ -33,13 +41,5 @@
   - PiSerial
   ```
   
-## Hardware
-```
-Ultrasonic Sensors
-Motor controller
-Pi- Camera
-Raspberry PI 
-PC ( Processing)
-```
-
+  ![System_Overview](images/full_system_view.png "System_view")
 
