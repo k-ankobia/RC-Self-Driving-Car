@@ -3,6 +3,7 @@
 ## Modified RC Car
 ![photo_of_car](images/car_front.JPG "Car")
 
+
 ## Hardware
 ```
 Ultrasonic Sensors
@@ -14,7 +15,7 @@ PC ( Processing)
 
 
 
-## Training The Car 
+## Nerual Network Demo  
 ![Training_car](images/car_driving.gif "Training")
 
 
@@ -43,3 +44,9 @@ PC ( Processing)
   
   ![System_Overview](images/full_system_view.png "System_view")
 
+###Acknowledgements 
+The project was inspired by :
+[Zhang Wang Self Driving Car Model ](https://zhengludwig.wordpress.com/projects/self-driving-rc-car/ " Test")
+
+Ryan Zotti: How to Build Your Own Self Driving Toy Car | PyData DC 2016
+ [PyData Conference](https://www.youtube.com/watch?v=QbbOxrR0zdA)
