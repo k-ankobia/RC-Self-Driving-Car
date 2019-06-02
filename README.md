@@ -41,7 +41,7 @@ Successfully traversing a race track.
   
   ![System_Overview](images/full_system_view.png "System_view")
 
-###Acknowledgements 
+### Acknowledgements 
 The project was inspired by :
 [Zhang Wang Self Driving Car Model ](https://zhengludwig.wordpress.com/projects/self-driving-rc-car/ " Test")
 
