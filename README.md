@@ -1,5 +1,8 @@
 # Neural Network Self Driving Car
 
+I Built a real-time autonomous navigation radio-controlled car by prototyping a platform to test machine learning algorithms through a combination of robotics controls and computer vision using an Arduino, Raspberry Pi, and suitable sensors. Python and C were used to pre-process and transform raw data sets from a video camera feed the car to the right level of granularity for analysis using neural networks to generate and test a model.
+
+
 ## Modified RC Car
 ![photo_of_car](images/car_front.JPG "Car")
 
@@ -14,16 +17,10 @@ PC ( Processing)
 ```
 
 
-
 ## Nerual Network Demo  
+Successfully traversing a race track. 
+
 ![Training_car](images/car_driving.gif "Training")
-
-
-
-
-
-
-
 
 
 ![neural_net](images/neural_net_overview.png "Neural_net_overview")
